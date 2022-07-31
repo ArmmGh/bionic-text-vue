@@ -10,8 +10,8 @@ const transformToBionic = (content) => {
       idx = Math.ceil(idx);
     }
 
-    newWord.splice(idx, 0, '</b>');
-    newWord.unshift('<b>');
+    newWord.splice(idx, 0, '</span>');
+    newWord.unshift('<span class="bionic">');
 
     return newWord.join('');
   });

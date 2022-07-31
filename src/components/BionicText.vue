@@ -23,6 +23,11 @@ span.bionic-text {
   font-size: 18px;
   line-height: 1.4;
   letter-spacing: 0.35px;
-  color: rgb(28, 28, 30);
+  color: var(--color-tertiary);
+}
+
+span.bionic {
+  color: var(--color-quinary);
+  font-weight: 600;
 }
 </style>
